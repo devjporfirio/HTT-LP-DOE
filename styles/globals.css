@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-white: #ffffff;
+  --color-coral: #dd947f;
+  --color-peach: #efc0ae;
+  --color-cream: #f9f1ef;
+  --color-charcoal: #7f7f7f;
+  --color-body: #717171;
+  --color-input-shadow: #dddddd;
+}
+
+@theme inline {
+  --font-lato: var(--font-lato);
+  --font-rubik: var(--font-rubik);
+}
+
+@layer base {
+  * {
+    @apply selection:bg-coral/10 selection:text-coral;
+  }
+  body {
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply mx-auto max-w-7xl;
+  }
+}
+
+#rd-form-mur0fgqs .bricks-form__label,
+#rd-form-mu5zng62 .bricks-form__label {
+  color: #717171 !important;
+  font-family: Lato !important;
+  font-size: 16px !important;
+}
+
+#rdstation-bricks-embeddable-form-bricks-component-v-2wob9I7l14BbXOM-DXPw .bricks--column > div,
+#rdstation-bricks-embeddable-form-bricks-component-v-2wob9I7l14BbXOM-DXPw .bricks--section {
+  background: transparent !important;
+}
+
+#rdstation-bricks-embeddable-form-bricks-component-v-2wob9I7l14BbXOM-DXPw .bricks--column > div,
+#rdstation-bricks-embeddable-form-bricks-component-zxMf6RoMLV217VUynuHJlw .bricks--column > div {
+  padding: 0;
+}
+
+#rd-form-mur0fgqs .bricks-form__input,
+#rd-form-mu5zng62 .bricks-form__input {
+  color: #717171 !important;
+  font-family: Lato !important;
+  font-size: 16px !important;
+  border-radius: 5px !important;
+  background: #FFF !important;
+  box-shadow: 0 2px 3px 0 #DDD inset !important;
+  outline: none !important;
+}
+
+#rd-button-mur0fgqv.bricks--component-button {
+  color: #FFF !important;
+  text-align: center !important;
+  font-family: Lato !important;
+  font-size: 12px !important;
+  font-weight: 900 !important;
+  line-height: normal !important;
+  text-transform: uppercase !important;
+  padding: 0 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 3px !important;
+  border: 1px solid #EFC0AE !important;
+  background: #EFC0AE !important;
+  height: 42px !important;
+  transition: .4s;
+}
+
+#rd-button-mur0fgqv.bricks--component-button:hover {
+  background: #FFF !important;
+  color: #DD947F !important;
+}
+
+#rd-button-mu5zng65.bricks--component-button {
+  color: #DD947F !important;
+  text-align: center !important;
+  font-family: Lato !important;
+  font-size: 12px !important;
+  font-weight: 900 !important;
+  line-height: normal !important;
+  text-transform: uppercase !important;
+  padding: 0 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 3px !important;
+  border: 1px solid #DD947F !important;
+  background: #FFF !important;
+  height: 42px !important;
+  transition: .4s;
+}
+
+#rd-button-mu5zng65.bricks--component-button:hover {
+  background: #DD947F !important;
+  color: #FFF !important;
+}

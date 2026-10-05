@@ -5,6 +5,17 @@ import { useEffect } from "react"
 
 import { docsConfig } from "@/config/docs"
 
+declare global {
+  interface Window {
+    RDStationForms: new (
+      formId: string,
+      token: string
+    ) => {
+      createForm: () => void
+    }
+  }
+}
+
 export function Section5() {
   const { donor } = docsConfig
 

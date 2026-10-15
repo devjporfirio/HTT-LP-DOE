@@ -10,7 +10,7 @@ export function Footer() {
         <div className="flex w-full flex-col items-start justify-between gap-10 lg:flex-row mb-5 pb-5 border-b border-white">
           <Icons.logo className="h-10 w-37 shrink-0" />
           <div className="flex flex-wrap justify-start gap-7 lg:gap-10 text-center lg:justify-start lg:text-left">
-            <div className="flex flex-col items-start gap-2.5">
+            <div className="hidden flex-col items-start gap-2.5">
               <span className="font-rubik text-sm font-bold tracking-[0.48px] text-white">
                 Endereço
               </span>

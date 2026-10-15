@@ -27,7 +27,7 @@ export function Section1() {
             <h1 className="font-rubik text-2xl font-black uppercase leading-[150%] text-coral lg:text-4xl">
               {hero.heading}
             </h1>
-            <p className="font-rubik text-base uppercase leading-[150%] text-coral lg:text-xl">
+            <p className="font-rubik text-base uppercase leading-[150%] font-bold text-coral lg:text-xl">
               {hero.subheading}
             </p>
           </div>

@@ -38,7 +38,7 @@ export function Section1() {
               key={cta.href}
               href={cta.href}
               className={cn(
-                buttonVariants(index === 0 ? "primary" : "outline"),
+                buttonVariants(index === -1 ? "primary" : "outline"),
                 "min-w-65.75 lg:min-w-0"
               )}
             >

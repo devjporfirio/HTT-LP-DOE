@@ -61,7 +61,7 @@
 }
 
 #rd-button-mur0fgqv.bricks--component-button {
-  color: #FFF !important;
+  color: #EFC0AE !important;
   text-align: center !important;
   font-family: Lato !important;
   font-size: 12px !important;
@@ -73,15 +73,16 @@
   align-items: center !important;
   justify-content: center !important;
   border-radius: 3px !important;
-  border: 1px solid #EFC0AE !important;
-  background: #EFC0AE !important;
+  border: 1px solid #fff !important;
+  background: #fff !important;
   height: 42px !important;
   transition: .4s;
 }
 
 #rd-button-mur0fgqv.bricks--component-button:hover {
-  background: #FFF !important;
-  color: #DD947F !important;
+  border-color: #DD947F !important;
+  background: #DD947F !important;
+  color: #FFF !important;
 }
 
 #rd-button-mu5zng65.bricks--component-button {
